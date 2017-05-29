@@ -20,6 +20,7 @@
         <div class="container-fluid">
           <div class="navbar-header">
             <a class="navbar-brand" href="index.php">Iniciar</a>
+            <a class="navbar-brand" href="views/AdministrarProductos.php">Administrar</a>
           </div>
         </div>
       </nav>
