@@ -268,9 +268,9 @@
 					<div class="panel panel-info">
 						<div class="panel-heading">Listado</div>
 						<div class="panel-body" style="background-color:black">
-							<table id="tabla" class="table table-bordered ">
+							<table id="tabla" class="table table-bordered">
 							</table><br>
-							<label><h2>Total a pagar:</h2></label>
+							<label><h2 class="white-text">Total a pagar:</h2></label>
 							<input type="number" id="total" class="" disabled>
 							<br>
 							<div class="col-sm-5">
@@ -415,9 +415,9 @@
 						$('#pasta').collapse('hide');
 						$('#carrito').collapse('show');
 						var d = '<thead>'+'<tr>'+
-						'<th>Nombre</th>'+
-						'<th>Cantidad</th>'+
-						'<th>Total</th>'+
+						'<th class="white-text">Nombre</th>'+
+						'<th class="white-text">Cantidad</th>'+
+						'<th class="white-text">Total</th>'+
 						'</tr>'+'</thead>'+'<tbody>';
 						var objecto;
 						let nom;
@@ -433,9 +433,9 @@
 								}
 							}
 							d+= '<tr>'+
-						 '<td>'+nom+'</td>'+
-						 '<td>'+objecto['cantidad']+'</td>'+
-						 '<td>'+precio+'</td>'+
+						 '<td class="white-text">'+nom+'</td>'+
+						 '<td class="white-text">'+objecto['cantidad']+'</td>'+
+						 '<td class="white-text">'+precio+'</td>'+
 						 '</tr>';
 						 }
 						 d+='</tbody>';
